@@ -271,8 +271,25 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
-.text {
-  text-align: center;
+.card-team-text .text {
+  margin-bottom: 8px;
+}
+.card-team-icons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.card-team-icons-link {
+  display: inline-block;
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 12px;
+}
+.card-team-icons-link svg {
+  fill: var(--white);
 }
 
 .team-title,
