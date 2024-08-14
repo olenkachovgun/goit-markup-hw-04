@@ -132,7 +132,7 @@ img {
 
 .header-link:hover,
 .header-link:focus,
-.header-link.current:hover,
+.header-link.current,
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--ocean);
@@ -147,6 +147,10 @@ img {
 }
 .hero {
   padding: 188px 0;
+  background-image: linear-gradient(to right, var(--grey), var(--grey)),
+    url(/images/people-office.png);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 700;
@@ -193,6 +197,15 @@ img {
 .advantages {
   padding: 120px 0;
 }
+.advantages-item-icon {
+  background-color: var(--cloud);
+  padding: 24px 100px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
 .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -319,8 +332,7 @@ img {
   margin-bottom: 16px;
   display: inline-block;
 }
-.page-footer,
-.hero {
+.page-footer {
   background-color: var(--navy-blue);
 }
 .footer-text {
