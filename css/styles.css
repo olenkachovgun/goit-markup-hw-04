@@ -363,9 +363,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -393,6 +391,7 @@ img {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -418,4 +417,8 @@ img {
 }
 .footer-icons {
   gap: 16px;
+}
+.footer-icons .card-team-icons-link:hover,
+.footer-icons .card-team-icons-link:focus {
+  background-color: var(--green);
 }
